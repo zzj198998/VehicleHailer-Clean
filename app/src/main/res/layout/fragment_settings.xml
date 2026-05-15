@@ -83,6 +83,13 @@
                         
                         android:textSize="15sp"
                         android:checked="true" />
+                        android:id="@+id/channel_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="8dp"
+                        
+                        android:textSize="15sp"
+                        android:checked="true" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -109,6 +116,12 @@
                         android:textSize="17sp"
                         android:textStyle="bold" />
                     <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/tts_enabled_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="8dp"
+                        
+                        android:textSize="15sp" />
                         android:id="@+id/tts_enabled_switch"
                         android:layout_width="match_parent"
                         android:layout_height="52dp"
@@ -156,6 +169,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
                     <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/auto_play_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        
+                        android:textSize="15sp"
+                        android:checked="true" />
                         android:id="@+id/auto_play_switch"
                         android:layout_width="match_parent"
                         android:layout_height="52dp"
@@ -579,7 +598,17 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:textSize="12sp"/>
+                                    android:id="@+id/route_hailing_noise"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:textSize="12sp"/>
                                 <androidx.appcompat.widget.SwitchCompat
+                                    android:id="@+id/route_hailing_voice"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:textSize="12sp"/>
                                     android:id="@+id/route_hailing_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
@@ -657,7 +686,17 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:textSize="11sp"/>
+                                    android:id="@+id/route_door_noise"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:textSize="11sp"/>
                                 <androidx.appcompat.widget.SwitchCompat
+                                    android:id="@+id/route_door_voice"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:textSize="11sp"/>
                                     android:id="@+id/route_door_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
@@ -734,7 +773,17 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:textSize="11sp"/>
+                                    android:id="@+id/route_lock_noise"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:textSize="11sp"/>
                                 <androidx.appcompat.widget.SwitchCompat
+                                    android:id="@+id/route_lock_voice"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:textSize="11sp"/>
                                     android:id="@+id/route_lock_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
@@ -817,7 +866,17 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:textSize="11sp"/>
+                                    android:id="@+id/route_soundwave_noise"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:textSize="11sp"/>
                                 <androidx.appcompat.widget.SwitchCompat
+                                    android:id="@+id/route_soundwave_voice"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:textSize="11sp"/>
                                     android:id="@+id/route_soundwave_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
@@ -894,7 +953,17 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:textSize="11sp"/>
+                                    android:id="@+id/route_custom_noise"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:textSize="11sp"/>
                                 <androidx.appcompat.widget.SwitchCompat
+                                    android:id="@+id/route_custom_voice"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:textSize="11sp"/>
                                     android:id="@+id/route_custom_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
